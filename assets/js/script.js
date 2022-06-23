@@ -17,7 +17,7 @@ $("textarea").each(function() {
     } else if (hour > 17) {
         $("textarea").parent().addClass("past");
     } else if (hour < 9) {
-        $("textarea".parent().addClass("future"));
+        $("textarea").parent().addClass("future");
     }
 });
 
